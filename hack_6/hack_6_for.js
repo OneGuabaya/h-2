@@ -9,6 +9,17 @@
 let str = "fooziman";
 let result = [];
 
+let testApp = () => {
+const times = str.length - 1
+for(i=0;i<=times;i++){
+    let letter = ""
+    letter = str[i]
+    result.push(letter)
+} return result
+}
+
+testApp()
+
 
 //export result
 module.exports = result;

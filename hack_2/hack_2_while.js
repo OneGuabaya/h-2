@@ -7,6 +7,20 @@
  */
 let result = [];
 
+let testWhile = () => {
+n=5
+while(n<=5 && n>=0){
+    result.unshift(n)
+    n=n-1
+    result2=[...result]
+    result2.shift()
+    console.log(result2)
+}
+return result2
+}
+
+testWhile()
+result=result2
 
 //export result
 module.exports = result;

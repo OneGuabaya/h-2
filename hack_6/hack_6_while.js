@@ -9,6 +9,21 @@
 let str = "fooziman";
 let result = [];
 
+let testApp = () => {
+
+    const times = str.length - 1
+    let n = 0
+
+    while (n<=times && n >= 0){ 
+        let letter = ""
+        letter = str[n]
+        result.push(letter)
+        n = n + 1
+    } return result
+    }
+    
+    testApp()
+
 
 //export result
 module.exports = result;

@@ -7,6 +7,17 @@
  */
 let result = [];
 
+let testAdd = () => {
+    n=5
+    while (n<=5 && n>=0){
+        result.unshift(n)
+        n = n-1
+    }
+    return result
+}
+
+testAdd()
+console.log(result)
 
 //export result
 module.exports = result;

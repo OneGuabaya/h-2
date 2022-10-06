@@ -7,6 +7,14 @@
  */
 let result = [];
 
+let testApp = () => {
+    for(i=0;i<5;i++) {
+        result.unshift(i+1)
+        console.log(result)
+    } return result
+}
+
+testApp()
 
 //export result
 module.exports = result;
